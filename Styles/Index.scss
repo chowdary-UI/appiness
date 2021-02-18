@@ -1,0 +1,188 @@
+@import './variable';
+
+.stagSans_light{
+    font-family: StagSans-light;
+}
+.stagSans_medium{
+    font-family: StagSans-medium;
+}
+.container-fluid{
+    font-family: 'Titillium Web';
+}
+.BGImg{
+    background-image: url(../ImageAssets/Banner_Image.png);
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.sub_heading_group{
+    color: $white;
+}
+.sub_heading{
+    font-weight: 700;
+}
+.feature{
+    font-size: 20px;
+    letter-spacing: 3.59px;
+}
+.Appointment_button{
+    color: $white!important;
+    background-color: $primaryButton;
+    border: 1px solid $primaryButton;
+    padding: 7px 15px!important;
+    font-size: 14px!important;
+}
+.Enquire_heading{
+    font-weight: 700;
+}
+.Enquire_form {
+    background-color: $white;
+}
+.form-control{
+    border-radius: 0px!important;
+    margin-bottom: 10px;
+}
+.btn-submit{
+    color: $white!important;
+    background-color: $primaryButton;
+    border: 1px solid $primaryButton;
+    padding: 5px 20px!important;
+    border-radius: 0px!important;
+}
+.Sub_description{
+    background: $gradiantBlueBasic;
+    background: $gradiantBlue;
+    span{
+        font-size: 17px;
+        color: $white;
+    }
+}
+.section-heading{
+    color: $subHeading;
+}
+.Doctor_bg{
+    background-color: $doctorBG;
+    .Doctor_group{
+        color: $subHeading;
+    }
+    .Doctor_name, .Doctor_designation{
+        color: $doctorName; 
+        margin: 0.5em 0em;
+    }
+    .Doctor_designation, .Doctor_description{
+        font-size: 15px;
+    }
+    .borderblue{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border: 0;
+        width: 46px;
+        border-top: 1px solid #22B78E;
+    }
+    .Sub_description{
+        color: $white;
+    }
+}
+.types{
+    list-style-image: url(../ImageAssets/hospital_logo_list.png);
+    li{
+        font-size: 14px;
+        line-height: 3;
+    }
+}
+.immuneWarning{
+    height: 175px;
+    border: 1px solid $cardBorder!important;
+    border-radius: 4px!important;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    margin-bottom: 30px;
+}
+.warningImages{
+    height: 65px;
+    line-height: 65px;
+    img{
+        line-height: 1.5;
+        display: inline-block;
+    }
+}
+// .card{border-right:none;border-left:none}
+// .card-header{background-color:rgba(0,0,0,0);padding:10px 10px 10px 0;cursor:pointer}
+// .card-body{border-bottom:1px solid rgba(0,0,0,.125);padding:0}
+// #accordion .card .card-header:after{font-family:FontAwesome;content:"\f106";float:right}
+// #accordion .card .card-header.collapsed:after{font-family:FontAwesome;content:"\f107";float:right}
+// .card[aria-expanded=true]{border-bottom:0}
+// .card[aria-expanded=false]{border-bottom:1px solid rgba(0,0,0,.125)}
+
+// #accordion{
+//     .card {
+//         border:none;
+//         .card-header{
+//             background-color:rgba(0,0,0,0);
+//         }
+//     }
+// } 
+// #accordion .card .card-header:after{font-family:FontAwesome;content:"\f106";float:right}
+// #accordion .card .card-header.collapsed:after{font-family:FontAwesome;content:"\f107";float:right}
+.accordion {
+    margin-top: 40px;
+    .card {
+      border: none;
+      .card-head{
+          border-bottom: 1px solid rgba(0,0,0,.125)
+      }
+      h2 {
+        background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+        background-size: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 700;
+        color: $doctorName;
+        padding: 20px 0px;
+        &.collapsed {
+              background-image: url(../ImageAssets/Accordion_arrow_down.png);
+        }
+      }
+      &-body {
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+      }
+    }
+  }
+  .acc_body_li{
+    list-style-image: url(../ImageAssets/double-tick-indicator_li.png);
+  }
+  .testimonial{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  }
+  .appointment{
+      background-color: $appointmentbutton;
+      color: $white;
+  }
+  footer{
+      background-color: #333333;
+      width: 100%;
+      .copyrights{
+          color: $white;
+          font-size: 14px;
+      }
+  }
+@media (max-width: 575.98px){ 
+    .container-fluid{
+        padding: 0px 10px!important;
+    }
+    .card-body{
+        padding: 1rem 0.5rem!important;
+    }
+    .warningImages{
+        height: 70px;
+    }
+    .accordion .card h2 {
+        padding: 20px 35px;
+    }
+ }
+

@@ -1,0 +1,18 @@
+$white : #ffffff;
+$primaryButton :  #DD5A6A!important;
+$subHeading : #22B78E;
+$gradiantBlueBasic : rgb(46,196,184);
+$gradiantBlue : linear-gradient(85deg, rgba(46,196,184,1) -35%, rgba(96,120,234,1) 100%);
+$doctorBG : #F9F9FF;
+$doctorName : #1D5AA6;
+$cardBorder : #E5EAFF;
+$appointmentbutton : #004498;
+
+@font-face{
+    font-family: StagSans-light;
+    src: url(../Font/StagSans-Light.woff);
+}
+@font-face{
+    font-family: StagSans-medium;
+    src: url(../Font/StagSans-Medium.woff);
+}

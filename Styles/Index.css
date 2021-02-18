@@ -1,0 +1,217 @@
+@font-face {
+  font-family: StagSans-light;
+  src: url(../Font/StagSans-Light.woff);
+}
+
+@font-face {
+  font-family: StagSans-medium;
+  src: url(../Font/StagSans-Medium.woff);
+}
+
+.stagSans_light {
+  font-family: StagSans-light;
+}
+
+.stagSans_medium {
+  font-family: StagSans-medium;
+}
+
+.container-fluid {
+  font-family: 'Titillium Web';
+}
+
+.BGImg {
+  background-image: url(../ImageAssets/Banner_Image.png);
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.sub_heading_group {
+  color: #ffffff;
+}
+
+.sub_heading {
+  font-weight: 700;
+}
+
+.feature {
+  font-size: 20px;
+  letter-spacing: 3.59px;
+}
+
+.Appointment_button {
+  color: #ffffff !important;
+  background-color: #DD5A6A !important;
+  border: 1px solid #DD5A6A !important;
+  padding: 7px 15px !important;
+  font-size: 14px !important;
+}
+
+.Enquire_heading {
+  font-weight: 700;
+}
+
+.Enquire_form {
+  background-color: #ffffff;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  margin-bottom: 10px;
+}
+
+.btn-submit {
+  color: #ffffff !important;
+  background-color: #DD5A6A !important;
+  border: 1px solid #DD5A6A !important;
+  padding: 5px 20px !important;
+  border-radius: 0px !important;
+}
+
+.Sub_description {
+  background: #2ec4b8;
+  background: linear-gradient(85deg, #2ec4b8 -35%, #6078ea 100%);
+}
+
+.Sub_description span {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.section-heading {
+  color: #22B78E;
+}
+
+.Doctor_bg {
+  background-color: #F9F9FF;
+}
+
+.Doctor_bg .Doctor_group {
+  color: #22B78E;
+}
+
+.Doctor_bg .Doctor_name, .Doctor_bg .Doctor_designation {
+  color: #1D5AA6;
+  margin: 0.5em 0em;
+}
+
+.Doctor_bg .Doctor_designation, .Doctor_bg .Doctor_description {
+  font-size: 15px;
+}
+
+.Doctor_bg .borderblue {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+  width: 46px;
+  border-top: 1px solid #22B78E;
+}
+
+.Doctor_bg .Sub_description {
+  color: #ffffff;
+}
+
+.types {
+  list-style-image: url(../ImageAssets/hospital_logo_list.png);
+}
+
+.types li {
+  font-size: 14px;
+  line-height: 3;
+}
+
+.immuneWarning {
+  height: 175px;
+  border: 1px solid #E5EAFF !important;
+  border-radius: 4px !important;
+  -webkit-box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+          box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  margin-bottom: 30px;
+}
+
+.warningImages {
+  height: 65px;
+  line-height: 65px;
+}
+
+.warningImages img {
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.accordion {
+  margin-top: 40px;
+}
+
+.accordion .card {
+  border: none;
+}
+
+.accordion .card .card-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.accordion .card h2 {
+  background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+  background-size: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1D5AA6;
+  padding: 20px 0px;
+}
+
+.accordion .card h2.collapsed {
+  background-image: url(../ImageAssets/Accordion_arrow_down.png);
+}
+
+.accordion .card-body {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.acc_body_li {
+  list-style-image: url(../ImageAssets/double-tick-indicator_li.png);
+}
+
+.testimonial {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  -webkit-box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+}
+
+.appointment {
+  background-color: #004498;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #333333;
+  width: 100%;
+}
+
+footer .copyrights {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+@media (max-width: 575.98px) {
+  .container-fluid {
+    padding: 0px 10px !important;
+  }
+  .card-body {
+    padding: 1rem 0.5rem !important;
+  }
+  .warningImages {
+    height: 70px;
+  }
+  .accordion .card h2 {
+    padding: 20px 35px;
+  }
+}
+/*# sourceMappingURL=Index.css.map */
